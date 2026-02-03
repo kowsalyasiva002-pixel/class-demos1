@@ -1,0 +1,44 @@
+.details-container {
+  padding: 20px;
+}
+
+.back-btn {
+  padding: 8px 16px;
+  border: none;
+  background: black;
+  color: white;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.details-box {
+  display: flex;
+  gap: 30px;
+  margin-top: 20px;
+}
+
+.details-img {
+  width: 350px;
+  height: 350px;
+  object-fit: contain;
+}
+
+.details-price {
+  color: #0077ff;
+  font-size: 24px;
+}
+
+
+
+@media (max-width: 768px) {
+  .details-box {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .details-img {
+    width: 250px;
+    height: 250px;
+    margin: 0 auto;
+  }
+}
