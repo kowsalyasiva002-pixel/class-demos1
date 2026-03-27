@@ -1,0 +1,70 @@
+/* RIGHT WRAPPER */
+.insights-right {
+  width: 260px;
+
+}
+
+/* CARD */
+.insights-box {
+  background: #f3f8ff;
+  border-radius: 10px;
+  padding: 35px;
+}
+
+/* HEADER */
+.insights-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 14px;
+}
+
+.insights-header-left {
+  display: flex;
+  gap: 8px;
+}
+
+.bulb-small {
+  width: 22px;   /* FIXED weight -> width */
+  height: 22px;
+}
+
+/* INTRODUCING */
+.insights-header small {
+  font-size: 10px;
+  color: #5c8df6;
+  font-weight: 600;
+  letter-spacing: 0.4px;
+}
+
+/* INSIGHTS */
+.insights-header h4 {
+  font-size: 18px;
+  margin: 2px 0 0;
+  color: #1f2a44;
+}
+
+/* ARROW ICON */
+.arrow-icon {
+  font-size: 18px;
+  color: #5c8df6;
+  cursor: pointer;
+}
+
+/* ROWS */
+.insight-row {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 12px;
+}
+
+.insight-row img {
+  width: 16px;
+  height: 16px;
+}
+
+.insight-row span {
+  font-size: 13px;
+  color: #1f2a44;
+}

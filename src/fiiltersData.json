@@ -1,0 +1,29 @@
+{
+  "propertyTypes": [
+    "Flat/Apartment",
+    "Residential Land",
+    "Serviced Apartments",
+    "Builder Floor",
+    "1 RK/ Studio Apartment",
+    "Other",
+    "Independent House/Villa",
+    "Farm House"
+  ],
+  "bedrooms": [
+    "1 RK/1 BHK",
+    "2 BHK",
+    "3 BHK",
+    "4 BHK",
+    "4+ BHK"
+  ],
+  "constructionStatus": [
+    "New Launch",
+    "Under Construction",
+    "Ready to move"
+  ],
+  "postedBy": [
+    "Owner",
+    "Builder",
+    "Dealer"
+  ]
+}

@@ -1,0 +1,160 @@
+
+.sentence{
+  margin-right: 20px;
+}
+
+/* TITLE */
+.dropdown-container h2 {
+     font-size: 32px;
+    line-height: 48px;
+    font-weight: 700;
+    color: #091e42;
+    display: block;
+    gap:10px;
+    
+}
+
+/* TABS */
+.tabs {
+  display: flex;
+  gap: 25px;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.tabs span {
+  padding-bottom: 10px;
+  cursor: pointer;
+  color: #6b7280;
+}
+
+.tabs .active {
+  color: #2563eb;
+  border-bottom: 3px solid #2563eb;
+}
+
+/* SEARCH BAR */
+.search-bar {
+  display: flex;
+  align-items: center;
+  margin-top: 15px;
+  border: 1px solid #e5e7eb;
+  border-radius: 10px;
+  padding: 10px;
+  gap: 10px;
+}
+
+/* TYPE DROPDOWN */
+.type-dropdown {
+  position: relative;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+/* DROPDOWN BOX */
+.dropdown-box {
+  position: absolute;
+  top: 40px;
+  background: #fff;
+  border: 1px solid #e5e7eb;
+  border-radius: 8px;
+  width: 150px;
+  padding: 10px;
+}
+
+/* RADIO ITEMS */
+.radio-item {
+  display: flex;
+  gap: 8px;
+  padding: 6px 0;
+  cursor: pointer;
+}
+
+/* DIVIDER */
+.divider {
+  width: 1px;
+  height: 25px;
+  background: #e5e7eb;
+}
+
+/* INPUT */
+.input-box {
+  display: flex;
+  align-items: center;
+  flex: 1;
+}
+
+.search-icon {
+  margin-right: 5px;
+  color: #6b7280;
+}
+
+.input-box input {
+  border: none;
+  outline: none;
+  width: 100%;
+}
+
+/* BUTTON */
+.explore-btn {
+  background: #2563eb;
+  color: #fff;
+  padding: 8px 18px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+}
+
+/* SUGGESTIONS */
+.suggestions {
+  margin-top: 20px;
+}
+
+.chips {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+/* CHIP */
+.chip {
+  background: #f1f5f9;
+  padding: 6px 12px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.active-chip {
+  background: #e0ecff;
+  color: #2563eb;
+  border: 1px solid #2563eb;
+}
+
+/* ARROW */
+.arrow {
+  width: 30px;
+  height: 30px;
+  
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* FOOTER */
+.footer {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  font-size: 13px;
+  color: #6b7280;
+}
+
+.footer span {
+  margin-right: 15px;
+  cursor: pointer;
+}
+
+.footer .right {
+  cursor: pointer;
+}
+

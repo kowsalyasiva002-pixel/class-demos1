@@ -1,0 +1,144 @@
+/* ===============================
+   MAIN DROPDOWN
+================================ */
+.insights-dropdown {
+  display: flex;
+  width: 1050px;
+  background: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 6px 24px rgba(0, 0, 0, 0.15);
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 20px;
+  left: 125px;
+  top: 55px;
+  position: absolute;
+}
+
+/* ===============================
+   LEFT PANEL
+================================ */
+.insights-left {
+  width: 220px;
+  background: #f6f7f9;
+  border-radius: 8px;
+  padding: 20px;
+}
+
+.insights-left .bulb-icon {
+  width: 28px;
+  margin-bottom: 10px;
+}
+
+.insights-left h4 {
+  font-size: 14px;
+  font-weight: 600;
+  color: #1f2a44;
+}
+
+/* ===============================
+   MIDDLE PANEL
+================================ */
+.insights-middle {
+  flex: 1;
+  padding: 0 50px;
+}
+
+.middle-title {
+  font-size: 13px;
+  color: #7a869a;
+  margin-bottom: 12px;
+}
+
+.middle-item {
+  font-size: 14px;
+  color: #1f2a44;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+
+.view-all {
+  margin-top: 12px;
+  font-size: 13px;
+  color: #0078db;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+/* ===============================
+   RIGHT INSIGHTS CARD
+================================ */
+.insights-right {
+  width: 260px;
+}
+
+/* CARD */
+.insights-box {
+  background: #f3f8ff;
+  border-radius: 10px;
+  padding: 16px;
+}
+
+/* HEADER */
+.insights-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 14px;
+}
+
+.insights-header-left {
+  display: flex;
+  gap: 8px;
+}
+
+.bulb-small {
+  width:22px;
+  height: 22px;
+}
+
+/* INTRODUCING */
+.insights-header small {
+  font-size: 10px;
+  color: #5c8df6;
+  font-weight: 600;
+  letter-spacing: 0.4px;
+}
+
+/* INSIGHTS */
+.insights-header h4 {
+  font-size: 18px;
+  margin: 2px 0 0;
+  color: #1f2a44;
+}
+
+/* ARROW ICON */
+.arrow-icon {
+  font-size: 18px;
+  color:skyblue;
+  cursor: pointer;
+}
+
+/* ===============================
+   INSIGHT ROWS
+================================ */
+.insight-row {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 12px;
+}
+
+.insight-row img {
+  width: 16px;
+  height: 16px;
+}
+
+.insight-row span {
+  font-size: 13px;
+  color: #1f2a44;
+}
+.insight-arrow -icon{
+    color: #5c8df6;
+}
+

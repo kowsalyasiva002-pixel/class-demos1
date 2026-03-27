@@ -1,47 +1,27 @@
-import { Routes, Route, Navigate } from "react-router-dom";
-import AuthProvider from "./AuthContext";
-import Register from "./Register";
-import Login from "./Login";
-import Dashboard from "./Dashboard";
+import { Routes, Route } from "react-router-dom";
+
+import HomePage from "./Homepage";
+import FlatsPage from "./FlatsPage";
+import PostProperty from "./PostProperty";
 
 function App() {
   return (
-    <AuthProvider>
-      
-        <Routes>
-          <Route path="/" element={<Navigate to="/login" />} />
-          <Route path="/register" element={<Register />} />
-          <Route path="/login" element={<Login />} />
-          <Route path="/dashboard" element={<Dashboard />} />
-        </Routes>
-      
-    </AuthProvider>
+    <div>
+      <Routes>
+        {/* ✅ HOME PAGE */}
+        <Route path="/" element={<HomePage />} />
+
+        {/* ✅ FLATS PAGE ONLY */}
+        <Route path="/buy/flats" element={<FlatsPage />} />
+
+        {/* POST PROPERTY */}
+        <Route path="/post-property" element={<PostProperty />} />
+
+        {/* FALLBACK */}
+        <Route path="*" element={<h2>Page Not Found</h2>} />
+      </Routes>
+    </div>
   );
 }
 
 export default App;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
